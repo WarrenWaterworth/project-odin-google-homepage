@@ -74,6 +74,7 @@ form {
     width: 580px;
     height: 45px;
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .input-container > input {
@@ -84,4 +85,19 @@ form {
 
 .input-container > img {
     object-fit:none
+}
+
+#button-duo {
+    border: none;
+    margin: 20px 4px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-style: arial;
+    background-color: #F8F9FA;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.input-container:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
 }
