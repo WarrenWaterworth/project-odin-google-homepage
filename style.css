@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+
+#left-nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 15px 5px;
+}
+
+#right-nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+
+#sign-in {
+    background-color: #1a73e8;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 9px 23px;
+    margin: 0px 8px;
+    cursor: pointer;  
+}
+
+
+
