@@ -46,7 +46,17 @@ li {
     padding: 9px 23px;
     margin: 0px 8px;
     cursor: pointer;  
+    position: relative;
+    bottom: 10px;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
 
+.logo {
+    position:relative;
+    bottom: 10px;
+}
 
