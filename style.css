@@ -56,7 +56,32 @@ section {
 }
 
 .logo {
+    display: block;
     position:relative;
     bottom: 10px;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px gainsboro;
+    border-radius: 25px;
+    width: 580px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.input-container > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.input-container > img {
+    object-fit:none
+}
