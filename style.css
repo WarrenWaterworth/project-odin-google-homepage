@@ -101,3 +101,42 @@ form {
 .input-container:hover {
     box-shadow: 0 0 10px 0 gainsboro;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 35px;
+    position:fixed;
+    left:0%;
+    bottom: 0%;
+    font-size: 14px;
+    
+}
+
+#left-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 15px 5px;
+}
+
+#right-footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+
+}
+
+#left-footer > li {
+    padding: 8px;
+}
+
+#right-footer > li {
+    padding: 8px;
+    margin-right: 20px;
+}
